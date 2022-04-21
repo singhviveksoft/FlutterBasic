@@ -6,5 +6,7 @@ extension listSum on List<int>{
    }
    return sum;
  }
-
+ /*extension <extension name> on <type> {
+ (<member definition>)*
+ }*/
 }

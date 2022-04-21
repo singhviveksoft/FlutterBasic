@@ -1,4 +1,4 @@
-import './demo2.dart' hide display1;
+import './demo2.dart' show Element, display1;
 import './demo3.dart' as e2;
 import 'Extension.dart';
 //import 'demo2.dart'  hide display4;jjj
@@ -24,8 +24,8 @@ void main() {
 
   Element e1 = Element();
   e1.display1();
-  e1.display2();
-  display5();
+ // e1.display2();
+ // display5();
 
   var list=[1,2,3,4,5];
   print(list.sum());

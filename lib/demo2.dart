@@ -3,7 +3,7 @@ class Element {
     print('1st Element');
   }
 
-  void display2() {
+  void _display2() {
     print('2st Element');
   }
 }
